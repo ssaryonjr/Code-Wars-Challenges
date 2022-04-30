@@ -1,3 +1,5 @@
+//Total amount of points - 8 kyu
+//https://www.codewars.com/kata/5bb904724c47249b10000131
 // Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
 
 // For example: ["3:1", "2:2", "0:1", ...]
