@@ -22,4 +22,4 @@ function findOdd(arr) {
 console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]))
 
 
-//Grab the array and use the method find to find the first element in the array based on the filter condition that length of it is divisible by 2 ending in an odd number. And whatever element meets that condition gets returned to the console
+//If we want to find the number in the array that has an odd amount of times in the sequence and there will almost always be one the easiest approach is to find the first index (since theres only one anyways)... and then compare if that index is equal to the element with their lenght.. (or count) divided by 2 to be an odd number.
