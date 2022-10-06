@@ -1,3 +1,4 @@
+//www.codewars.com/kata/562f91ff6a8b77dfe900006e
 // My friend John likes to go to the cinema. He can choose between system A and system B.
 
 // System A : he buys a ticket (15 dollars) every time
@@ -19,8 +20,7 @@
 // movie(100, 10, 0.95) should return 24
 //     (with card the total price is 235, with tickets 240)
 
-function movie(card, ticket, perc) {
-
+https: function movie(card, ticket, perc) {
   let currentPrice = 0;
   let currentTicketPrice = ticket;
   let numOfTimes = 1;
@@ -29,16 +29,14 @@ function movie(card, ticket, perc) {
 
     currentTicketPrice *= perc;
     currentPrice += currentTicketPrice;
-      
-    if (choiceA > Math.ceil((card + currentPrice))) {
+
+    if (choiceA > Math.ceil(card + currentPrice)) {
       return numOfTimes;
     }
     numOfTimes++;
   }
-};
-
-
-function systemA(ticketPrice, numOftickets) {
-    return ticketPrice * numOftickets
 }
 
+function systemA(ticketPrice, numOftickets) {
+  return ticketPrice * numOftickets;
+}
